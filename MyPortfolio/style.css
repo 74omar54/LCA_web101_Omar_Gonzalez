@@ -18,7 +18,9 @@ body {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
-    color: blueviolet
+    color: blueviolet;
+    height: 450px;
+
   }
   
   main {
@@ -30,6 +32,7 @@ body {
     background-image: url(./LASERSLOWERBACKGROUND.jpeg);
     background-repeat: no-repeat;
     background-position: center;
+
     
   }
   
