@@ -38,6 +38,7 @@ article{
 }
 article > h3{
       font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     
 }
 article:hover{
@@ -64,3 +65,4 @@ footer{
   h1:hover{
       color: gold;
   }
+ 
