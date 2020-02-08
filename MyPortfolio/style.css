@@ -85,8 +85,6 @@ body {
     font-style:bold;
     color: gold;
     font-size: 40px;
-    
-    
   }
   
   button {
@@ -102,12 +100,10 @@ body {
     padding-bottom: 5%;
     text-align: center;
     color: rgb(230, 145, 18);
-    letter-spacing: 18px;
+    /* letter-spacing: 18px; */
     font-style: bold;
   }
   .has-border:hover {
     color: red;
     font-size: 25px;
-
   }
- 

@@ -45,3 +45,19 @@ img{
 a{
     color: sienna;
 }
+.title{
+    text-align: center;
+}
+
+.section{
+    display: grid;
+    grid-template-areas: 
+    ". . . list dates . .";
+}
+.list{
+    grid-area: list;
+
+}
+.dates{
+grid-area: dates;
+}
