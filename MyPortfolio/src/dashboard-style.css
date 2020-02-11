@@ -2,19 +2,22 @@
 .calculator {
     border: 1px solid #ccc;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 300px;
+    background-color: darkgrey;
+    padding-top: 20px;
+    height: 500px;
   }
   .calculator-screen {
-    width: 93%;
+    width: 90%;
     font-size: 5rem;
     height: 85px;
     border: none;
-    background-color: #693a1e;
-    color: rgb(243, 8, 8);
+    background-color: #36231f;
+    color: rgb(23, 145, 226);
     text-align: right;
     padding-right: 20px;
     padding-left: 10px;
@@ -104,14 +107,49 @@
   }
 .container{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-columns: minmax(100px, auto);
+    grid-template-columns: 30% 70%;
+
+    
 
 }
 nav{
     display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    background: rgba( 2,2,2,0.2);
+    box-shadow: grey ;
+    padding: 4px 4px 4px 4px
+}
+.day-of-the-week,
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.date-grid button:first-child{
+    grid-column: 7;
+}
+.month-indicator{
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+.calender{
+    color: yellowgreen;
+    border: double 1px red;
+    padding-bottom: 25px;
+    background: darkgrey;
+    background-image: url();
+}
+.day-of-the-week{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+button.cal-but{
+    font-size: 30px;
+    color: yellowgreen;
 
 }
+
 
 
 
