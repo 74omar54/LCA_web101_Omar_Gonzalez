@@ -63,7 +63,6 @@
   background-image: url(../jeepman.jpeg);
   display: grid;
   grid-template-columns: 3fr 7fr;
-  grid-template
   height: 100%;
   width: 100%;
 }

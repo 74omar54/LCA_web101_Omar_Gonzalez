@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 10% 10% 40% 30% 10%;
+    grid-template-areas:
+    "logo logo logo logo logo"
+    "nav nav nav nav nav"
+    "hero hero hero hero hero"
+    ". father actor nerd ."
+    ". copy . social .";
+}
+.logo{
+    grid-area: logo;
+}
+.nav{
+    grid-area: nav;
+}
+.hero{
+    grid-area: hero;
+}.blank1{
+    grid-area: blank1;
+}
+.father{
+    grid-area: father;
+}
+.actor{
+    grid-area: actor;
+}
+.nerd{
+    grid-area: nerd;
+}
+.blank2{
+    grid-area: blank2;
+}
+.copy{
+    grid-area: copy1;
+}
+.social{
+    grid-area: social;
+}
+
+
