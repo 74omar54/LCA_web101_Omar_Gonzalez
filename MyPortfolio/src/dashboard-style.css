@@ -62,7 +62,7 @@
 .container{
   background-image: url(../jeepman.jpeg);
   display: grid;
-  grid-template-columns: 3fr 7fr;
+  grid-template-columns: 30% 50% 20%;
   height: 100%;
   width: 100%;
 }
@@ -139,6 +139,15 @@ main{
 }
 h1{
   font-size: 100px;
+}
+.weather{
+ grid-column-start: span 4;
+ grid-row-start: 1;
+
+}.todo{
+  grid-row-start: 3;
+  grid-column-start:2;
+  color: white;
 }
 
 
