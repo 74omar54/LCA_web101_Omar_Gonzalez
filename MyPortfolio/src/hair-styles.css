@@ -17,6 +17,7 @@
 .nav{
     grid-area: nav;
     display: block;
+    float: left;
 
 }
 .hero{
