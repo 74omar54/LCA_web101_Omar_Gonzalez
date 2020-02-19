@@ -1,42 +1,59 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5,2fr);
     grid-template-rows: 10% 10% 40% 30% 10%;
     grid-template-areas:
-    "logo logo logo logo logo"
-    "nav nav nav nav nav"
-    "hero hero hero hero hero"
+    ". .logo logo logo "
+    ". nav nav nav ."
+    ". hero hero hero hero"
     ". father actor nerd ."
-    ". copy . social .";
+    " copy1 copy1 . social social";
 }
 .logo{
     grid-area: logo;
+    height: 100%;
+    width: 100%;
 }
 .nav{
     grid-area: nav;
+    display: block;
+
 }
 .hero{
     grid-area: hero;
-}.blank1{
+
+}
+.blank1{
     grid-area: blank1;
 }
 .father{
     grid-area: father;
+    padding: 20px;
 }
 .actor{
     grid-area: actor;
+    padding: 20px;
 }
 .nerd{
     grid-area: nerd;
+    padding: 20px;
 }
 .blank2{
     grid-area: blank2;
 }
 .copy{
     grid-area: copy1;
+
 }
 .social{
     grid-area: social;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding: 19px;
 }
 
 
