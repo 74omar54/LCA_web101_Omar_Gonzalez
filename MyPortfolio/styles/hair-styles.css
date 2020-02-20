@@ -1,31 +1,32 @@
 .container{
     display: grid;
     grid-template-columns: repeat(5,2fr);
-    grid-template-rows: 10% 10% 40% 30% 10%;
+    grid-template-rows: 25% 10% 100% 30% 10%;
     grid-template-areas:
     ". .logo logo logo "
-    ". nav nav nav ."
-    ". hero hero hero hero"
+    ". . nav . ."
+    " hero hero hero hero hero"
     ". father actor nerd ."
-    " copy1 copy1 . social social";
+    /*" footer footer footer footer footer";*/
 }
 .logo{
     grid-area: logo;
     height: 100%;
     width: 100%;
+    margin-left: 8%;
 }
 .nav{
     grid-area: nav;
-    display: block;
-    float: left;
+    display: flex;
+    text-align: center;
 
 }
 .hero{
     grid-area: hero;
-
-}
-.blank1{
-    grid-area: blank1;
+    background-image: url(../images/barberstorefront.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
 }
 .father{
     grid-area: father;
@@ -39,22 +40,31 @@
     grid-area: nerd;
     padding: 20px;
 }
-.blank2{
-    grid-area: blank2;
-}
-.copy{
-    grid-area: copy1;
-
-}
-.social{
+footer{
     grid-area: social;
     background-color: black;
 }
-ul{
+a{
     list-style: none;
     display: inline;
     text-align: center;
     padding: 19px;
 }
-
+h2{
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    font-size: 50px;
+    color: red;
+    background-color: blue;
+ 
+}
+span{
+    margin-left: 50%;
+    margin-right: 5%;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+}
 
