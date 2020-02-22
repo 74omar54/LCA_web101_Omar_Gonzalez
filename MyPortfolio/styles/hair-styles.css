@@ -11,7 +11,7 @@
 }
 .logo{
     grid-area: logo;
-    height: 100%;
+    height: 50%;
     width: 100%;
     margin-left: 8%;
 }
@@ -26,7 +26,7 @@
     background-image: url(../images/barberstorefront.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100%;
+    height: 85%;
 }
 .father{
     grid-area: father;
@@ -35,10 +35,12 @@
 .actor{
     grid-area: actor;
     padding: 20px;
+    margin-left: 38px;
 }
 .nerd{
     grid-area: nerd;
     padding: 20px;
+     
 }
 footer{
     grid-area: social;
@@ -49,6 +51,9 @@ a{
     display: inline;
     text-align: center;
     padding: 19px;
+    font-size: 20px;
+    color:brown;
+    
 }
 h2{
     margin-top: 10%;
@@ -56,15 +61,18 @@ h2{
     margin-bottom: 5%;
     margin-right: 10%;
     font-size: 50px;
-    color: red;
-    background-color: blue;
+    color:brown;
+    background: orange;
  
 }
 span{
     margin-left: 50%;
     margin-right: 5%;
-    background-color: blue;
+    background-color: brown;
     font-size: 30px;
-    color: white;
+    color: orange;
+}
+.dude{
+    
 }
 
