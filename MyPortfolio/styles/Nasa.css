@@ -1,0 +1,38 @@
+body{
+    width: 850px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url(../images/NASATAKEOFF.png);
+    background-repeat: none;
+    font-family: 'Trade Winds', ;
+    color: red;
+}
+article{
+    width: 270px;
+    height: 374px;
+    background-color: rgb(224, 222, 222);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: darkblue;
+    background-color: rgb(224, 222, 222);
+}
+h2{
+    text-align: center;
+}
+.office{
+    display: flex;
+    flex-direction: column;
+}
