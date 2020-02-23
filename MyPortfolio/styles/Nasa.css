@@ -11,14 +11,15 @@ main{
     height: 450px;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 20px;
     background-image: url(../images/NASATAKEOFF.png);
     background-repeat: none;
-    font-family: 'Trade Winds', ;
+    font-family: 'Bowlby One SC', ;
     color: red;
 }
 article{
     width: 270px;
-    height: 374px;
+    height: 324px;
     background-color: rgb(224, 222, 222);
 }
 section{
@@ -26,13 +27,15 @@ section{
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 10px;
     color: darkblue;
     background-color: rgb(224, 222, 222);
 }
 h2{
     text-align: center;
+    text-decoration: underline;
 }
-.office{
-    display: flex;
-    flex-direction: column;
+button{
+    background-color: gray;
+    color: darkblue;
 }
