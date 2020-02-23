@@ -1,4 +1,5 @@
 .container{
+    background-color:tan;
     display: grid;
     grid-template-columns: repeat(5,2fr);
     grid-template-rows: 25% 10% 100% 30% 10%;
@@ -7,18 +8,19 @@
     ". . nav . ."
     " hero hero hero hero hero"
     ". father actor nerd ."
-    /*" footer footer footer footer footer";*/
+    " social social social social social";
 }
 .logo{
     grid-area: logo;
     height: 50%;
     width: 100%;
-    margin-left: 8%;
+    margin-top: 65px;
 }
 .nav{
     grid-area: nav;
     display: flex;
     text-align: center;
+    text-decoration: underline;
 
 }
 .hero{
@@ -28,6 +30,7 @@
     background-size: 100%;
     height: 85%;
 }
+
 .father{
     grid-area: father;
     padding: 20px;
@@ -43,6 +46,7 @@
      
 }
 footer{
+    display: flex;
     grid-area: social;
     background-color: black;
 }
