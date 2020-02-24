@@ -126,3 +126,19 @@ button {
   color: red;
   font-size: 25px;
 }
+p{
+  animation:flip;
+  font-size: 70px;
+  text-align: center;
+  color: red;
+  animation-name: welcome;
+  
+}
+.welcome{
+  animation: bounceInDown 3s, bounceOutUp 3s 2s ;
+}
+}
+@keyframes welcome{
+  
+}
+
