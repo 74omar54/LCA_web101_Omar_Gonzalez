@@ -1,0 +1,44 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: brown;
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+main{
+
+}
+form{
+    background-color: gray;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: beige;
+
+}
+footer{
+    width: 100%;
+  background-color: black;
+  margin-top: 30px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.iframe-container{
+    margin-top: 30px;
+    height: 500px;
+}
+
+
