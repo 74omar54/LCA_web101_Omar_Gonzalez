@@ -1,35 +1,41 @@
-
+@media (min-width: 320px){
 .container{
     display: flex;
     flex-direction: column;
 }
 nav{
-    background-color: brown;
+    background-color:transparent;
     grid-area: nav;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+h1{
+    color: lightblue;
+    font-family:georgia;
 }
 main{
 
 }
 form{
-    background-color: gray;
+    
+    background-color:transparent;
 }
 footer{
     display: flex;
     flex-direction: row;
 }
 body{
+    background-image: url(../images/clouds.jpeg);
     background-color: beige;
+  
 
 }
 footer{
     width: 100%;
-  background-color: black;
+  background-color: transparent;
   margin-top: 30px;
-
 }
 form{
     display: flex;
@@ -37,8 +43,67 @@ form{
     margin-bottom: 50px;
 }
 .iframe-container{
-    margin-top: 30px;
+    margin-top: 45px;
     height: 500px;
 }
+label{
+    color: lightblue;
+}
+}
+@media (min-width: 700px){
+ body{
+    background-image: url(../images/redflarenight.jpeg);
+    background-repeat: none;
+    background-image: cover;
+        
+    }
+.container{
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
 
-
+header{
+    grid-area: header;
+    width: 100%;
+}
+nav{
+   
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+h1{
+    font-size: 55px;
+    color: red;
+}
+p a{
+    color: red;
+    text-decoration: none;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+section.survey{
+    grid-area: form;
+    width: 30%;
+    background-color: firebrick;
+}
+label{
+    color: white;
+}
+.iframe-container{
+    grid-area: iframe;
+    width: 45%;
+    
+}
+footer{
+    background-color: black;
+}
+}
