@@ -1,6 +1,7 @@
 body{
     width: 850px;
     margin: 0 auto;
+    background-image: url(../images/moonlight.jpeg);
 }
 main{
     display: flex;

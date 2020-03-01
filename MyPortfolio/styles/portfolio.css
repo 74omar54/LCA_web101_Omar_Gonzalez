@@ -15,6 +15,11 @@ h1{
     color: lightblue;
     font-family:georgia;
 }
+p a{
+    color: lightblue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 main{
 
 }
@@ -33,7 +38,7 @@ body{
 
 }
 footer{
-    width: 100%;
+  width: 100%;
   background-color: transparent;
   margin-top: 30px;
 }
@@ -67,13 +72,12 @@ label{
 }
 
 header{
+    display: flex;
+    flex-direction: column;
     grid-area: header;
     width: 100%;
 }
-nav{
-   
-    display: flex;
-    flex-direction: row;
+nav{ 
     background-color: black;
 }
 h1{
@@ -85,6 +89,10 @@ p a{
     text-decoration: none;
 }
 main{
+    display: grid;
+    grid-template-areas:
+    "iframe form";
+    grid-template-columns: 1fr 1fr;
     grid-area: main;
 }
 footer{
@@ -92,18 +100,22 @@ footer{
 }
 section.survey{
     grid-area: form;
-    width: 30%;
-    background-color: firebrick;
+    width: 90%;
+    height: 75%;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: rgba(178, 34, 34, 0.336);
 }
 label{
     color: white;
 }
 .iframe-container{
+    margin-top: 0;
     grid-area: iframe;
-    width: 45%;
+    width: 100%;
     
 }
 footer{
-    background-color: black;
+    background-color:transparent;
 }
 }
