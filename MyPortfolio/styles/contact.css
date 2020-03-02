@@ -1,0 +1,60 @@
+@media (min-width: 320px){
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    color: gold;
+}
+
+main{
+    background-color: gray;
+}
+form{
+    background-color: darkgray;
+    width: 50%;
+}
+}
+@media (min-width: 700px){
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header "
+    ". main main"
+    "footer footer";
+    background-image: url(../images/CAMPO1.png);
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 30%;
+    background-color: rgba(0, 128, 0, 0.466);
+    padding-left: 15%;
+}
+footer{
+    grid-area: footer;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+form{
+    text-align: center;
+    width: 75%;
+    height: 200px;
+    background-color: rgba(65, 105, 225, 0.466);
+}
+h2{
+    font-size: 30px;
+}
+p{
+    text-decoration: underline;
+    color: red;
+    font-size: 20px;
+
+}
+}
