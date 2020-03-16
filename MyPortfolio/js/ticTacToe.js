@@ -43,12 +43,13 @@ function handleClick(e) {
   placeMark(cell, currentClass)
   if (checkWin(currentClass)) {
     endGame(false)
-  }
-  //checkforwin
-  //checkfordraw
-  //switch turns
-  swapTurns()
+  } else if (isDraw()) {
+    endGame(true)
+  } else {
+    swapTurns()
   setBoardHoverClass()
+  }
+
 }
 
 function placeMark(cell, currentClass) {
