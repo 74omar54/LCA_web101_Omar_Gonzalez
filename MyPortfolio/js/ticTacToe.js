@@ -12,6 +12,7 @@ const WINNING_COMBINATIONS = [
 ]
 const cellElements = document.querySelectorAll('[data-cell]')
 const board = document.getElementById('board')
+const winningMessageTextElement = document.getElementById('winningMessage')
 const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
 let circleTurn
 
@@ -32,6 +33,7 @@ function endGame(draw) {
   } else {
     winningMessageTextElement.innerText = ''
   }
+  winningMessageTextElement.classList.add('show')
 }
 
 
