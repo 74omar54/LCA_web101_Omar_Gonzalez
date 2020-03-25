@@ -96,6 +96,26 @@
                   <input type="text" id="itemField" placeholder="Item" />
                   <input type="submit" id="add" value="add" />
                 </form>
+                <br>
+                <br>
+                <br>
+                <button onclick="myLocation">click to get location</button>
+                <p id="myloc"></p>
+                <script type="text/javascript">
+                    var loc = document.getElementById('myloc');
+
+                    function myLocation(){
+                        if(navigator.geolocation){
+                            navigator.geolocation.getCurrentPosition(showPosition);
+                        } else{
+                            loc.innerHTML = "Location Tracking not Possible.";
+                        }
+                    }
+
+                    function showPosition(position){
+                        loc.innerHTML ="longitude: " + position.coords.longitude + "<br> Latitude: " + position.coords.latitude + "<br>"
+                    }
+                </script>
               </div>
             <div class="date">
                 <h1>8:00 PM</h1>
