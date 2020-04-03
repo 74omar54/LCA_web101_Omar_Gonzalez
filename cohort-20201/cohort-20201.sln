@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pigLatin", "cohort-20201\pigLatin.csproj", "{974B131C-38DD-4C26-99CC-DEE7A765F0AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E336738-1E12-4F7A-B6A7-C82D5779F972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyMethods", "ManyMethods\ManyMethods.csproj", "{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974B131C-38DD-4C26-99CC-DEE7A765F0AE}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{974B131C-38DD-4C26-99CC-DEE7A765F0AE}.Debug|anycpu.Build.0 = Debug|anycpu
+		{974B131C-38DD-4C26-99CC-DEE7A765F0AE}.Release|anycpu.ActiveCfg = Release|anycpu
+		{974B131C-38DD-4C26-99CC-DEE7A765F0AE}.Release|anycpu.Build.0 = Release|anycpu
+		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
