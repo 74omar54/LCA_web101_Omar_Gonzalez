@@ -1,26 +1,25 @@
-﻿<Properties StartupConfiguration="{974B131C-38DD-4C26-99CC-DEE7A765F0AE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cohort-20201/Program.cs">
+﻿<Properties StartupConfiguration="{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ManyMethods/Program.cs">
     <Files>
-      <File FileName="cohort-20201/Program.cs" Line="30" Column="1" />
-      <File FileName="ManyMethods/Program.cs" Line="108" Column="1" />
+      <File FileName="ManyMethods/Program.cs" Line="109" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cohort-20201" expanded="True">
-            <Node name="ManyMethods" expanded="True" />
-            <Node name="pigLatin" expanded="True">
+            <Node name="ManyMethods" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="pigLatin" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ManyMethods FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.pigLatin FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.pigLatin PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

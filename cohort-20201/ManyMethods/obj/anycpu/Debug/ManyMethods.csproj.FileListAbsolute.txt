@@ -1,0 +1,6 @@
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ManyMethods/bin/Debug/ManyMethods.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ManyMethods/bin/Debug/ManyMethods.pdb
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ManyMethods/obj/anycpu/Debug/ManyMethods.csprojAssemblyReference.cache
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ManyMethods/obj/anycpu/Debug/ManyMethods.csproj.CoreCompileInputs.cache
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ManyMethods/obj/anycpu/Debug/ManyMethods.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ManyMethods/obj/anycpu/Debug/ManyMethods.pdb
