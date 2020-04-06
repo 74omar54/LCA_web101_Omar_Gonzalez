@@ -25,8 +25,8 @@ namespace ManyMethods
         public static void Hello()
         {
             Console.WriteLine("What is your name?");
-            Console.ReadLine();
-            Console.WriteLine("Bye Bob");
+            string name = Console.ReadLine();
+            Console.WriteLine("Bye " + name);
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
         }
