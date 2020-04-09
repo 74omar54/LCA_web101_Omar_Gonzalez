@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyMethods", "ManyMethods\ManyMethods.csproj", "{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{29FD57F2-45B1-47B6-9B42-6D0352910C43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -21,5 +23,9 @@ Global
 		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Debug|anycpu.Build.0 = Debug|anycpu
 		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Release|anycpu.ActiveCfg = Release|anycpu
 		{D21CEA98-DD04-47CC-BEA7-7C3901A93A6B}.Release|anycpu.Build.0 = Release|anycpu
+		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Debug|anycpu.Build.0 = Debug|anycpu
+		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Release|anycpu.ActiveCfg = Release|anycpu
+		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

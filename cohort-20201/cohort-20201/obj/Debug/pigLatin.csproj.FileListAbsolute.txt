@@ -3,3 +3,4 @@
 /Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/cohort-20201/obj/Debug/pigLatin.csproj.CoreCompileInputs.cache
 /Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/cohort-20201/obj/Debug/cohort-20201.exe
 /Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/cohort-20201/obj/Debug/cohort-20201.pdb
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/cohort-20201/obj/Debug/pigLatin.csprojAssemblyReference.cache

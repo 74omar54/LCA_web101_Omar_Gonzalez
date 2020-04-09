@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace PigLatin
 {
@@ -6,24 +7,33 @@ namespace PigLatin
     {
         public static void Main(string[] args)
         {
-            char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
-
+            char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u' };
             Console.WriteLine("Enter your word");
-            string answer = Console.ReadLine();
-
+            string answer = Console.ReadLine().ToLower();
             string firstLetter = answer.Substring(0, 1);
             string lastLetter = answer.Substring(answer.Length - 1, 1);
             int index = answer.IndexOfAny(vowels);
-
-            string newWord = answer.Substring(1);
-
-            if (answer.IndexOfAny(vowels) >= 0)
+            string findFirstVowel = answer.Substring(0, index);
+            string newWord = answer.Substring(index) + findFirstVowel;
+            if (answer.IndexOfAny(vowels) == -1)
             {
-                Console.WriteLine("True");
+                Console.WriteLine(newWord + "ay");
             }
-
-
-
+            else if (firstLetter.IndexOfAny(vowels) == 0){
+                if (lastLetter.IndexOfAny(vowels) == 0)
+                {
+                    Console.WriteLine(answer + "yay");
+                } else
+                {
+                    Console.WriteLine(answer + "ay");
+                }
+            }
+            else
+            {
+                Console.WriteLine(newWord + "ay");
+            }
+            Console.ReadKey();
         }
     }
+   
 }
