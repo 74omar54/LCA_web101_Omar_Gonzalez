@@ -1,0 +1,6 @@
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/RockPaperScissors/bin/Debug/RockPaperScissors.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/RockPaperScissors/bin/Debug/RockPaperScissors.pdb
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/RockPaperScissors/obj/anycpu/Debug/RockPaperScissors.csprojAssemblyReference.cache
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/RockPaperScissors/obj/anycpu/Debug/RockPaperScissors.csproj.CoreCompileInputs.cache
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/RockPaperScissors/obj/anycpu/Debug/RockPaperScissors.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/RockPaperScissors/obj/anycpu/Debug/RockPaperScissors.pdb
