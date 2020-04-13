@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyMethods", "ManyMethods\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{29FD57F2-45B1-47B6-9B42-6D0352910C43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICTACTOE", "TICTACTOE\TICTACTOE.csproj", "{089892AB-2593-4025-BBAE-1537C6424C23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -27,5 +29,9 @@ Global
 		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Debug|anycpu.Build.0 = Debug|anycpu
 		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Release|anycpu.ActiveCfg = Release|anycpu
 		{29FD57F2-45B1-47B6-9B42-6D0352910C43}.Release|anycpu.Build.0 = Release|anycpu
+		{089892AB-2593-4025-BBAE-1537C6424C23}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{089892AB-2593-4025-BBAE-1537C6424C23}.Debug|anycpu.Build.0 = Debug|anycpu
+		{089892AB-2593-4025-BBAE-1537C6424C23}.Release|anycpu.ActiveCfg = Release|anycpu
+		{089892AB-2593-4025-BBAE-1537C6424C23}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

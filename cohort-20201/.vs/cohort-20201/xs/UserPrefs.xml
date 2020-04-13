@@ -1,24 +1,10 @@
-﻿<Properties StartupConfiguration="{29FD57F2-45B1-47B6-9B42-6D0352910C43}|Default">
-  <MonoDevelop.Ide.ItemProperties.RockPaperScissors FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RockPaperScissors/Program.cs">
+﻿<Properties StartupConfiguration="{089892AB-2593-4025-BBAE-1537C6424C23}|Default">
+  <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TICTACTOE/Program.cs">
     <Files>
-      <File FileName="cohort-20201/Program.cs" Line="41" Column="1" />
+      <File FileName="TICTACTOE/Program.cs" Line="92" Column="26" />
       <File FileName="ManyMethods/Program.cs" />
-      <File FileName="RockPaperScissors/Program.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="cohort-20201" expanded="True">
-            <Node name="ManyMethods" expanded="True" />
-            <Node name="pigLatin" expanded="True" />
-            <Node name="RockPaperScissors" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
@@ -28,4 +14,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TICTACTOE FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

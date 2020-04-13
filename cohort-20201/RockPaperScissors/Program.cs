@@ -9,7 +9,7 @@ namespace RockPaperScissors
             Random random = new Random();
             int computerHand = random.Next(1, 3);
 
-            Console.WriteLine("Enter 1 rock, 2 paper, 3 scissors");
+            Console.WriteLine("Enter (1) rock, (2) paper, (3) scissors");
             string userHand = Console.ReadLine().ToLower();
             CompareHands(computerHand, userHand);
             Console.ReadLine();
