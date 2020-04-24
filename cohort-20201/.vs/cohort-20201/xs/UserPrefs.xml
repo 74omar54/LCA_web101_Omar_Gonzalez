@@ -1,11 +1,25 @@
-﻿<Properties StartupConfiguration="{089892AB-2593-4025-BBAE-1537C6424C23}|Default">
+﻿<Properties StartupConfiguration="{0F0883B9-E410-43D0-8AF3-999638F7CDF9}|Default">
   <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TICTACTOE/Program.cs">
     <Files>
-      <File FileName="TICTACTOE/Program.cs" Line="92" Column="26" />
-      <File FileName="ManyMethods/Program.cs" />
+      <File FileName="TICTACTOE/Program.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cohort-20201" expanded="True">
+            <Node name="MasterMind" expanded="True" />
+            <Node name="TICTACTOE" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="TowersofHanoi" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TowersofHanoi FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
@@ -13,6 +27,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MasterMind PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TICTACTOE FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TICTACTOE PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

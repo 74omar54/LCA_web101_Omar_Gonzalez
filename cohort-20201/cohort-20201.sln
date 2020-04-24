@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TICTACTOE", "TICTACTOE\TICTACTOE.csproj", "{089892AB-2593-4025-BBAE-1537C6424C23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterMind", "MasterMind\MasterMind.csproj", "{E56FC0FB-D2D5-405F-B9F3-BD3858091357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersofHanoi", "TowersofHanoi\TowersofHanoi.csproj", "{40E87515-BAC0-47C3-AD4F-A93E4EE8975B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradebook", "Gradebook\Gradebook.csproj", "{0F0883B9-E410-43D0-8AF3-999638F7CDF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -33,5 +39,19 @@ Global
 		{089892AB-2593-4025-BBAE-1537C6424C23}.Debug|anycpu.Build.0 = Debug|anycpu
 		{089892AB-2593-4025-BBAE-1537C6424C23}.Release|anycpu.ActiveCfg = Release|anycpu
 		{089892AB-2593-4025-BBAE-1537C6424C23}.Release|anycpu.Build.0 = Release|anycpu
+		{E56FC0FB-D2D5-405F-B9F3-BD3858091357}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E56FC0FB-D2D5-405F-B9F3-BD3858091357}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E56FC0FB-D2D5-405F-B9F3-BD3858091357}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E56FC0FB-D2D5-405F-B9F3-BD3858091357}.Release|anycpu.Build.0 = Release|anycpu
+		{40E87515-BAC0-47C3-AD4F-A93E4EE8975B}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{40E87515-BAC0-47C3-AD4F-A93E4EE8975B}.Debug|anycpu.Build.0 = Debug|anycpu
+		{40E87515-BAC0-47C3-AD4F-A93E4EE8975B}.Release|anycpu.ActiveCfg = Release|anycpu
+		{40E87515-BAC0-47C3-AD4F-A93E4EE8975B}.Release|anycpu.Build.0 = Release|anycpu
+		{0F0883B9-E410-43D0-8AF3-999638F7CDF9}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{0F0883B9-E410-43D0-8AF3-999638F7CDF9}.Debug|anycpu.Build.0 = Debug|anycpu
+		{0F0883B9-E410-43D0-8AF3-999638F7CDF9}.Release|anycpu.ActiveCfg = Release|anycpu
+		{0F0883B9-E410-43D0-8AF3-999638F7CDF9}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal

@@ -52,7 +52,6 @@ namespace TICTACTOE
                    }
                 }
             }
-
         }
         private static bool playAgain()
         {

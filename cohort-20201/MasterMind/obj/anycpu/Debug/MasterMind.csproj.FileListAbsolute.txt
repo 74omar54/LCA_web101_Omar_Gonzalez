@@ -1,0 +1,5 @@
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/MasterMind/bin/Debug/MasterMind.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/MasterMind/bin/Debug/MasterMind.pdb
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/MasterMind/obj/anycpu/Debug/MasterMind.csproj.CoreCompileInputs.cache
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/MasterMind/obj/anycpu/Debug/MasterMind.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/MasterMind/obj/anycpu/Debug/MasterMind.pdb

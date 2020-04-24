@@ -3,3 +3,4 @@
 /Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/TICTACTOE/bin/Debug/TICTACTOE.pdb
 /Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/TICTACTOE/obj/anycpu/Debug/TICTACTOE.exe
 /Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/TICTACTOE/obj/anycpu/Debug/TICTACTOE.pdb
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/TICTACTOE/obj/anycpu/Debug/TICTACTOE.csprojAssemblyReference.cache
