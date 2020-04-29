@@ -1,25 +1,26 @@
 ﻿<Properties StartupConfiguration="{0F0883B9-E410-43D0-8AF3-999638F7CDF9}|Default">
   <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TICTACTOE/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gradebook/Program.cs">
     <Files>
-      <File FileName="TICTACTOE/Program.cs" Line="1" Column="1" />
+      <File FileName="PoCO/Program.cs" Line="1" Column="1" />
+      <File FileName="Gradebook/Program.cs" Line="2" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cohort-20201" expanded="True">
-            <Node name="MasterMind" expanded="True" />
-            <Node name="TICTACTOE" expanded="True">
+            <Node name="Gradebook" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="TowersofHanoi" expanded="True" />
+            <Node name="PoCO" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TowersofHanoi FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.PoCO FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />

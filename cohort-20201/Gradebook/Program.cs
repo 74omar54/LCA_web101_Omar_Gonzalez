@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+
 
 namespace Gradebook
 {
@@ -34,9 +36,9 @@ namespace Gradebook
 
                 int[] singleGrades = Array.ConvertAll<string, int>(gradeBook[item.Key].Split(), Convert.ToInt32);
 
-                lowestGrade = singleGrades.Min();
-                highestGrade = singleGrades.Max();
-                average = singleGrades.Average();
+                lowestGrade = singleGrades.Min(lowestGrade);
+                highestGrade = singleGrades.Max(highestGrade);
+                average = singleGrades.Average(average);
 
                 Console.WriteLine($"Highest grade = {highestGrade} Lowest grade = {lowestGrade} Average = {average}");
             }
