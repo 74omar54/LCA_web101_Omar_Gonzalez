@@ -1,0 +1,5 @@
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ToDoItem/bin/Debug/ToDoItem.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ToDoItem/bin/Debug/ToDoItem.pdb
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ToDoItem/obj/anycpu/Debug/ToDoItem.csproj.CoreCompileInputs.cache
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ToDoItem/obj/anycpu/Debug/ToDoItem.exe
+/Users/omargonzalez/Documents/DevFolder/LCA_web101_Omar_Gonzalez/cohort-20201/ToDoItem/obj/anycpu/Debug/ToDoItem.pdb
